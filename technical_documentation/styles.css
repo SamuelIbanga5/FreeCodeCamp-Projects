@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    /* display: flex; */
+    margin: 0;
+}
+
+nav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar header{
+    margin: 0;
+    padding: 20px 0 10px 10px;
+    font-weight: 500;
+    font-size: 1.65rem;
+    /* text-align: center; */
+}
+
+#main-doc{
+    position: absolute;
+    left: 300px;
+    margin-right: 0;
+    margin-left: 10px;
+    padding: 30px 40px 0 30px;
+}
+
+.main-section article p{
+
+    margin: 15px 10px !important;
+    line-height: 1.5;
+}
+
+.main-section article p:first-of-type{
+    margin: 20px 0 0;
+}
+
+.main-section article ul{
+    margin: 0;
+}
+.main-section article ul li{
+    margin: 13px 0;
+    line-height: 1.5;
+}
+
+main section header{
+    color: black;
+    font-weight: normal;
+    font-size: 1.7rem;
+    padding: 8px 0;
+}
+
+#navbar{
+    overflow-y: scroll;
+}
+
+#navbar ul{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    padding: 15px 0;
+    border-top: 1px solid black;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding-left: 35px;
+    color: #4d4e53;
+}
+
+#navbar ul li:last-of-type{
+    padding-bottom: 22px;
+}
+
+article{
+    color: #4d4e53;
+}
+
+.mdn{
+    text-decoration:underline !important;
+}
+
+code{
+    background-color: #f7f7f7;
+    display: block;
+    padding: 2rem;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+#Data_types article ul li:nth-of-type(2){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#Data_types article ul li:nth-of-type(3){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#Data_types article ul li:nth-of-type(4){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#Data_types article ul li:nth-of-type(5){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#Data_types article ul li:nth-of-type(6){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#Data_types article ul li:nth-of-type(7){
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+@media (max-width: 768px) {
+    #main-doc{
+        margin: 0 auto;
+    }
+
+    #navbar header{
+        padding-left: 35px;
+    }
+}
